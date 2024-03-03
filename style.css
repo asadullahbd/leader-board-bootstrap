@@ -1,0 +1,156 @@
+/* FONTS START "ROBOTO","OPEN SANS" , "POPPINS" START  */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,87.5,300..800;1,87.5,300..800&family=Poppins:wght@400;500&family=Roboto&display=swap');
+/* FONTS START "ROBOTO","OPEN SANS" , "POPPINS" END  */
+
+/* GLOBAL STYLE START  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+
+/* GLOBAL STYLE END */
+
+/* HEADER NAV DESIGN START  */
+header{
+    max-width: 1440px ;
+    background-color: #562EFF;
+}
+
+.container-css{
+    max-width: 870px;
+}
+
+header .logo{
+    max-width: 40.42px;
+    max-height: 52px;
+}
+
+header .nav-title{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+header .ul a{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+/* HEADER NAV DESIGN END  */
+/* MAIN SECTION DESIGN START  */
+
+main{
+    max-width: 1440px ;
+}
+
+main .container{
+    flex-direction: column;
+}
+
+main .container .row{
+    max-width: 870px;
+    background-color: #ffffff;
+}
+
+main img{
+    max-width: 56px;
+    max-height: 56px;
+}
+
+main h3{
+    font-family:"Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    color: #562EFF;
+}
+
+main hr{
+    max-width: 870px;
+}
+
+main h4{
+    font-family: "Poppins" , sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+main .blog h3{
+    color: black;
+    font-family: "Poppins" , sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+main .blog p{
+    font-family: "Poppins" , sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #562EFF;
+}
+
+main .blog span{
+    color: #9f9f9f;
+}
+
+
+/* MAIN SECTION DESIGN END  */
+
+/* COURSE SECTION DESIGN START  */
+section.course .container .row{
+    max-width: 870px;
+    background-color: #ffffff;
+}
+
+section.course .course-title{
+    color: #562EFF;
+}
+
+section.course img{
+    max-width: 224px;
+    max-height: 104px;
+}
+
+section.course h3{
+    font-family: "Roboto" ,sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+section.course .name{
+    color: #ED6B4F;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+
+section.course .stars .bi{
+    color: #FFC014;
+    font-size: 14px;
+    font-family: "Poppins" , sans-serif;
+}
+
+section.course .point{
+    color: #A2A2A2;
+    font-size: 14px;
+    font-family: "Poppins" , sans-serif;
+    font-weight: 500;
+}
+
+section.course .time{
+    color: #FF4A60;
+    background-color: #FFE4E8;
+    border-radius: 12px;
+    font-size: 14px;
+    font-family: "Open-sans" , sans-serif;
+    font-weight: 600;
+}
+
+/* COURSE SECTION DESIGN END  */
