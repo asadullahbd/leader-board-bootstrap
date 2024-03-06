@@ -14,5 +14,137 @@ body{
     background-color: #E5E5E5;
 }
 
+/* SECTION HEADER START  */
+.section-header{
+    color: #562EFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+
+}
+/* SECTION HEADER END  */
 
 /* GLOBAL STYLE END */
+
+/* HEADER DESIGN START  */
+header{
+    background-color: #562EFF;
+}
+
+header .img-fluid{
+    height: 3.18rem;
+}
+
+header ul li a{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler:focus{
+    box-shadow: 0 0 0.31rem #ffffff;
+}
+/* HEADER DESIGN END  */
+
+/* MAIN SECTION DESIGN START  */
+.main{
+    margin-top: 2.25rem;
+}
+.player-row img{
+    width: 3.5rem;
+}
+
+.player-row h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+
+.blog-row img{
+    width: 11.0625rem;
+}
+
+.blog-row h3{
+    font-size: 1.25rem;
+    line-height: 2.125;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+}
+
+.blog-row p{
+    color: #562EFF;
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+
+.blog-row p span{
+    color: #9f9f9f;
+}
+/* MAIN SECTION DESIGN END */
+
+
+/* COURSE SECTION DESIGN START */
+
+
+.course-row > div{
+    width: 15.77rem;
+    box-shadow: 0 0.625rem 0.625rem rgba(0,0,0,0.1);
+}
+
+.course-row img{
+    width: 14rem;
+    margin-bottom: 1.20rem;
+}
+
+.course-row > div h3{
+    color: #1E1E1E;
+    font-size: 1.25rem;
+    font-weight: 500;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 0.43rem;
+}
+
+.course-row > div p{
+    color: #ED6B4F;
+    font-size: 0.91rem;
+    font-weight: 400;
+    font-family: "Roboto",sans-serif;
+    margin-bottom: 1.25rem;
+}
+
+.course-row > div .stars i{
+    color: #FFC014;
+    
+}
+
+.course-row > div .stars i.bi-star-half{
+    color: #AEAEAE;
+    
+}
+
+.course-row > div span{
+    color: #AEAEAE;
+    font-size: 0.91rem;
+    font-weight: 400;
+    font-family: "Poppins",sans-serif;
+}
+
+.course-row > div .time{
+    background-color: #FFE4E8;
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+    font-size: 0.91rem;
+    font-family: "Open-sans", sans-serif;
+    font-weight: 600;
+    color: #FF4A60;
+}
+
+.course-row > div .time i.fa{
+    font-weight: 900;
+}
+/* COURSE SECTION DESIGN END */
